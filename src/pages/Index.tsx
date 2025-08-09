@@ -39,7 +39,7 @@ const Index = () => {
         <TagFilter tags={TAGS} selected={selected} onToggle={toggleTag} />
         <div className="mt-3 flex items-center gap-2 text-xs text-muted-foreground">
           <span>Auto-atualizar</span>
-          <Button variant={auto ? 'hero' : 'neon'} size="sm" onClick={() => setAuto((v) => !v)}>
+          <Button variant={auto ? 'hero' : 'neon'} size="xs" onClick={() => setAuto((v) => !v)}>
             {auto ? 'ON' : 'OFF'}
           </Button>
         </div>
